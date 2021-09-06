@@ -1,0 +1,333 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#Header {
+  padding: 17px 0;
+  background-color: #1c1c1cbf;
+}
+
+#Header .all .left .image {
+  margin-left: 3.5rem;
+}
+
+#Header .all .left .image img {
+  width: 70px;
+}
+
+#Header .all .right .navbar {
+  position: relative;
+}
+
+#Header .all .right .navbar .text {
+  margin-right: 30px;
+  position: absolute;
+  right: 220px;
+}
+
+#Header .all .right .navbar .text a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 11px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: bold;
+  padding: 6px 16px;
+}
+
+#Header .all .right .navbar .icons {
+  position: absolute;
+  right: 50px;
+}
+
+#Header .all .right .navbar .icons i {
+  color: #fff;
+  margin-right: 35px;
+  font-size: 15px;
+}
+
+#Main {
+  padding: 9rem 0;
+}
+
+#Main .all {
+  text-align: center;
+  position: relative;
+}
+
+#Main .all .top {
+  text-align: center;
+  position: relative;
+}
+
+#Main .all .top .head {
+  text-align: center;
+}
+
+#Main .all .top .head h1 {
+  font-size: 3.7rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #1c1c1c;
+  font-weight: bold;
+}
+
+#Main .all .top .head h2 {
+  font-size: 16.5px;
+  color: #1c1c1c;
+  font-family: 'Nunito Sans', sans-serif;
+  font-style: italic;
+}
+
+#Main .all .top .buttons {
+  position: absolute;
+  left: 35%;
+  margin-top: 5rem;
+}
+
+#Main .all .top .buttons a {
+  padding: 16px 45px;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-right: 25px;
+}
+
+#Main .all .top .buttons .bt1 {
+  background-color: #1c1c1c;
+  color: #fff;
+}
+
+#Main .all .top .buttons .bt2 {
+  background-color: #f7f7f7;
+  color: #1c1c1c;
+}
+
+#Main .all .bottom {
+  position: absolute;
+  top: 265%;
+}
+
+#Main .all .bottom img {
+  margin-left: 10px;
+  width: 120%;
+}
+
+#Main .all .bottom .boxes {
+  margin-top: 9rem;
+}
+
+#Main .all .bottom .boxes .box {
+  margin-top: 2rem;
+}
+
+#Main .all .bottom .boxes .box .text a {
+  text-decoration: none;
+  color: #1c1c1c;
+  font-size: 18.5px;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#Main .all .bottom .boxes .box .text a:hover {
+  color: #c18d8d;
+  text-decoration: underline;
+}
+
+#Main .all .bottom .boxes .box .text h3 {
+  margin-top: 7px;
+  font-size: 16px;
+  color: #1c1c1c;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+#Main .all .bottom .boxes .box .icon i {
+  padding: 17px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid #1c1c1c;
+  opacity: .3;
+  -webkit-transition: .4s;
+  transition: .4s;
+  cursor: pointer;
+}
+
+#Main .all .bottom .boxes .box .icon i:hover {
+  background-color: #1c1c1c;
+  color: #fff;
+  opacity: 1;
+}
+
+#First .all {
+  position: relative;
+}
+
+#First .all .first {
+  background-color: #f2f2f2;
+}
+
+#First .all .second {
+  background-color: #f7f7f7;
+}
+
+#First .all .third {
+  background-color: #fafafa;
+}
+
+#First .all .box {
+  position: absolute;
+  top: 50rem;
+  padding: 65px;
+}
+
+#First .all .box .left {
+  margin-right: 20px;
+}
+
+#First .all .box .left i {
+  padding: 16px;
+  background-color: transparent;
+  border: 1px solid #dbd6d6;
+}
+
+#First .all .box .right {
+  width: 69%;
+}
+
+#First .all .box .right a {
+  text-decoration: none;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+#First .all .box .right h3 {
+  font-size: 16px;
+  color: #1c1c1c;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+#Second {
+  position: relative;
+}
+
+#Second .all {
+  position: absolute;
+  top: 66rem;
+}
+
+#Second .all h2 {
+  color: #3b3b3b;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 35px;
+}
+
+#Second .all p {
+  font-size: 15px;
+  color: #1c1c1c;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+#Third {
+  position: relative;
+}
+
+#Third .all {
+  position: absolute;
+  top: 100rem;
+}
+
+#Third .all .box {
+  position: relative;
+}
+
+#Third .all .box a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50);
+          transform: translateX(-50);
+  -webkit-transform: translateY(-50);
+          transform: translateY(-50);
+  border-radius: 50%;
+  background-color: #3b3838;
+  padding: 25px;
+}
+
+#Third .all .box a i {
+  color: #fff;
+}
+
+#Third .all .right {
+  background-color: #1c1c1c;
+}
+
+#Third .all .right .all-t .text {
+  width: 55%;
+  margin-left: 6rem;
+}
+
+#Third .all .right .all-t .text h2 {
+  font-size: 30px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 6rem;
+}
+
+#Third .all .right .all-t .text h3 {
+  margin-top: 10px;
+  color: #c18d8d;
+  font-size: 17px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+#Third .all .right .all-t .text p {
+  font-size: 15px;
+  color: #fff;
+  margin-top: 30px;
+}
+
+#Fourth {
+  position: relative;
+}
+
+#Fourth .all {
+  position: absolute;
+  top: 150rem;
+}
+
+#Fourth .all .ex {
+  opacity: 0.3;
+}
+
+#Fourth .all .box {
+  background-color: #f7f7f7;
+  margin-right: 35px;
+  padding: 4rem;
+}
+
+#Fourth .all .box .top {
+  text-align: center;
+}
+
+#Fourth .all .box .top img {
+  border-radius: 50%;
+  width: 16%;
+  margin-bottom: 25px;
+}
+
+#Fourth .all .box hr {
+  opacity: .1;
+}
+
+#Fourth .all .box .bottom {
+  text-align: center;
+  margin-top: 25px;
+}
+
+#Fourth .all .box .bottom h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
